@@ -5,24 +5,24 @@
 	<title>debateSpace</title>
 </head>
 <body>
-	<header id="home-head">
+	<header>
 		<h1>debateSpace</h1>
 		<h3><em>a space for debate</em></h3>
 	</header>
 
-	<nav id="home-nav">	
+	<nav>	
 		<ul id="home-nav-ul">
-				<li class="nav-tabs">Debate</li>
-				<li class="nav-tabs">Guide</li>
+				<li class="nav-tabs">debate</li>
+				<li class="nav-tabs">guide</li>
 		</ul>
 	</nav>
 
 	<div id="db-frontpage">
-		<p id="db-description">DEBATE DESCRIPTION HERE</p>
-		<section>
-			<table>
+		<p id="db-description">insert debate description here</p>
+		<section class="right-panel">
+			<table id="round-table">
 				<thead>
-					<tr>Open Rounds</tr>
+					<tr><th>Open Rounds</th></tr>
 				</thead>
 				<tbody>
 					<tr></tr>
@@ -30,17 +30,23 @@
 			</table>
 			<button>New Room</button>
 		</section>
-		<aside>
-			<input type="text" placeholder="name">
-			<input type="submit">
-			<div id="spectate">
-				<p id="RtR-head">Rounds to Read</p>
-				<ul>
-					<li id="spectate-fin">Finished</li>
-					<li id="spectate-unfin">Unfinished</li>
-				</ul>
-			</div>
-		</aside>
+		<section class="left.panel" id="name-tag">			
+		<input type="text" placeholder="name">
+		<input type="submit">
+		</section>
+		<section class="left-panel">
+			<table id="spectate-table" >
+				<thead>
+					<tr id="spectate-table-head">
+						<th colspan="2">Ongoing Rounds</th>
+					</tr>
+					<tr>
+						<th>Finished</th>
+						<th>Unfinished</th>
+					</tr>
+				</thead>
+			</table>
+		</section>
 	</div>
 
 	<div id="guide">

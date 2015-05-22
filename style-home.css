@@ -1,17 +1,42 @@
 body {
 	font-family: Baskerville;
+	background-color: #f2f6f9;
 }
 
-#home-head {
+header {
 	text-align: center;
 	line-height: 13px;
 	font-size: 30px;
 }
 
-#home-nav {
+nav {
 	text-align: center;
 	margin: 0 auto;
 	background-color: rgba(100, 100, 100, 0.5);
+}
+
+section {
+	width: 49%;
+	height: 500px;
+	text-align: center;
+	border: 2px solid;
+}
+
+table {
+	margin: 0 auto;
+	padding: 5px 5px 5px 5px;
+}
+
+.left-panel {
+	float: left;
+}
+
+.right-panel {
+	float: right;
+}
+
+#name-tag {
+	height: 50px;
 }
 
 #home-nav-ul {
@@ -22,4 +47,8 @@ body {
   display: inline;
   margin: 0 4%;
   font-size: 20px;
+}
+
+#db-description {
+	text-align: center;
 }
