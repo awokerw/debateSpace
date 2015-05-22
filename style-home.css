@@ -1,0 +1,25 @@
+body {
+	font-family: Baskerville;
+}
+
+#home-head {
+	text-align: center;
+	line-height: 13px;
+	font-size: 30px;
+}
+
+#home-nav {
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(100, 100, 100, 0.5);
+}
+
+#home-nav-ul {
+  padding: 10px;
+}
+
+.nav-tabs {
+  display: inline;
+  margin: 0 4%;
+  font-size: 20px;
+}
