@@ -6,7 +6,7 @@ body {
 header {
 	text-align: center;
 	line-height: 13px;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 nav {
@@ -33,13 +33,35 @@ table {
 
 .right-panel {
 	float: right;
-	height: 562px;
+	height: 542px;
+}
+
+.name-form {
+	margin: 0 auto;
+}
+
+.finished-spec {
+	width: 49%;
+	float: left;
+}
+
+.unfinished-spec {
+	width: 49%;
+	float: right;
+}
+
+.spec-team {
+	text-align: center;
 }
 
 #name-tag {
 	height: 40px;
 	margin-bottom: 2px;
-	padding-top: 20px;
+	padding-top: 5px;
+}
+
+#name-in {
+	margin-bottom: 5px;
 }
 
 #home-nav-ul {

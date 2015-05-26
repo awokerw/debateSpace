@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 	<link href="style-home.css" rel="stylesheet">
 	<title>debateSpace</title>
 </head>
 <body>
 	<header>
-		<h1>debateSpace</h1>
+		<h1><strong><em>debateSpace</em></strong></h1>
 		<h3><em>a space for debate</em></h3>
 	</header>
 
@@ -22,35 +24,53 @@
 		<section class="right-panel">
 			<table id="round-table">
 				<thead>
-					<tr><th>Open Rounds</th></tr>
+					<tr><th><h4><strong>Open Rounds</strong></h4></th></tr>
 				</thead>
 				<tbody>
 					<tr></tr>
 				</tbody>
 			</table>
-			<button>New Room</button>
+			<button type="button" class="btn btn-default">New Room</button>
 		</section>
-		<section class="left-panel" id="name-tag">			
-		<input type="text" placeholder="name">
-		<input type="submit">
+		<section class="left-panel" id="name-tag">
+			<input type="text" placeholder="name">
+			<button id="name-in" class="btn btn-default btn-xs">Submit</button>
+		</form>	
 		</section>
 		<section class="left-panel">
-			<table id="spectate-table" >
-				<thead>
-					<tr id="spectate-table-head">
-						<th colspan="2">Ongoing Rounds</th>
-					</tr>
-					<tr>
-						<th>Finished</th>
-						<th>Unfinished</th>
-					</tr>
-				</thead>
-			</table>
+		<div class="ongoing-rounds">
+			<h4><strong>Spectate Rounds</strong></h4>
+			<div class="finished-spec">
+				<h5>Finished</h5>
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="spec-team">AFF</th>
+							<th class="spec-team">NEG</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<div class="unfinished-spec">
+			<h5>Unfinished</h5>
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="spec-team">AFF</th>
+							<th class="spec-team">NEG</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
 		</section>
 	</div>
 
 	<div id="guide">
 		
 	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>
