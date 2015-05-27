@@ -68,6 +68,15 @@ table {
   padding: 10px;
 }
 
+#home-nav-ul li {
+	display: inline;
+	padding: 10px;
+}
+
+#home-nav-ul li:hover {
+	background-color: rgba(75, 75, 75, 0.5);
+}
+
 .nav-tabs {
   display: inline;
   margin: 0 4%;
