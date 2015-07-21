@@ -12,3 +12,4 @@ $(".nav-tabs").last().click(function () {
 	$(".nav-debate").addClass("change-nav-off");
 	$(".nav-debate").removeClass("change-nav-on");
 });
+

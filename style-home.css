@@ -29,6 +29,10 @@ table {
 	padding: 5px 5px 5px 5px;
 }
 
+div {
+	margin: 5px 5px 5px 5px;
+}
+
 .change-nav-off {
 	display: none;
 }
@@ -46,17 +50,21 @@ table {
 	height: 542px;
 }
 
+.nav-guide {
+	display: none;
+}
+
 .name-form {
 	margin: 0 auto;
 }
 
 .finished-spec {
-	width: 49%;
+	width: 48%;
 	float: left;
 }
 
 .unfinished-spec {
-	width: 49%;
+	width: 48%;
 	float: right;
 }
 
@@ -97,8 +105,4 @@ table {
 
 #db-description {
 	text-align: center;
-}
-
-#new-room-btn {
-	
 }
