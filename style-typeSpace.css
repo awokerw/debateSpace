@@ -1,3 +1,7 @@
-.type-space-body textarea {
+div {
+	margin: 10px;
+}
 
+#char-log {
+	font-size: 16px;
 }
